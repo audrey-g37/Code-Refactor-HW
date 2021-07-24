@@ -11,6 +11,11 @@ body {
   background-color: #d9dcd6;
 }
 
+main {
+  float: left;
+  width: 75%;
+}
+
 /* Styling the text of anchor links and paragraphs */
 a {
   color: #ffffff;
@@ -19,6 +24,10 @@ a {
 
 p {
   font-size: 16px;
+}
+
+.alignment {
+  display: inline;
 }
 
 /* The header class styles the top navigation bar on the page */
@@ -71,7 +80,6 @@ p {
 /* The content class styles the main horizontal boxes. */
 
 .content {
-  width: 75%;
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 50px;
@@ -105,7 +113,6 @@ p {
 .benefits {
   margin-right: 20px;
   padding: 20px;
-  clear: both;
   float: right;
   width: 20%;
   height: 100%;
